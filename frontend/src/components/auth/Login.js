@@ -38,7 +38,7 @@ const handleSubmit = () =>{
       user: res.data.user
     })
     localStorage.setItem("x-auth-token", res.data.token)
-    history.push('/dashboard');
+    history.push('/');
 
 
     setUser({   
